@@ -18,11 +18,13 @@ body {
 .container {
     text-align: center;
     position: relative;
+    margin: auto;
     top: -50px;
 }
 
 .white-keys kbd {
     position: relative;
+    margin: auto;
     background-color: white;
     display: inline-block;
     width: 60px;
@@ -37,6 +39,7 @@ body {
 
 .black-keys kbd {
     position: relative;
+    margin: auto;
     display: inline-block;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 41%, rgba(42,41,41,1) 100%);
@@ -44,7 +47,7 @@ body {
     margin-top: -2px;
     height: 140px;
     width: 55px;
-    top: -200px;
+    top: -210px;
     border: 1px solid black;
     z-index: 1;
     color: white;
@@ -54,12 +57,14 @@ body {
 }
 
 .black-keys  kbd + kbd {
+    margin: auto;
     position: relative;
     margin-left: 15px;
     
 }
 
 #E_key + #T_key {
+    margin: auto;
     margin-left: 47px;
 }
 
