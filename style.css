@@ -19,6 +19,8 @@ body {
     text-align: center;
     position: relative;
     margin: auto;
+    width: 80vw; 
+    height: 60vw;
     top: -50px;
 }
 
@@ -34,8 +36,6 @@ body {
     line-height: 350px;
 
 }
-
-
 
 .black-keys kbd {
     position: relative;
