@@ -20,7 +20,7 @@ body {
     position: relative;
     margin: auto;
     width: 80vw; 
-    height: 60vw;
+    object-fit: cover; 
     top: -50px;
 }
 
